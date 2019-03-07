@@ -1,6 +1,8 @@
 package com.company.yatsenko.LCD.second.variant.factory.impl;
 
-public class Four implements Represntation {
+import com.company.yatsenko.LCD.second.variant.factory.Representation;
+
+public class Four implements Representation {
 
 
     @Override

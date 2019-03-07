@@ -1,6 +1,8 @@
 package com.company.yatsenko.LCD.second.variant.factory.impl;
 
-public class Six implements Represntation {
+import com.company.yatsenko.LCD.second.variant.factory.Representation;
+
+public class Six implements Representation {
 
     @Override
     public void representFirstString() {

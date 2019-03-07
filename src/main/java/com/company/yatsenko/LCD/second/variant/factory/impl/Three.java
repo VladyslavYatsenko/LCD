@@ -1,6 +1,8 @@
 package com.company.yatsenko.LCD.second.variant.factory.impl;
 
-public class Three implements Represntation {
+import com.company.yatsenko.LCD.second.variant.factory.Representation;
+
+public class Three implements Representation {
     @Override
     public void representFirstString() {
         System.out.print("._.");
