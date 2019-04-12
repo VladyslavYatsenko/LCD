@@ -5,17 +5,16 @@ import com.company.yatsenko.LCD.second.variant.factory.Representation;
 public class Zero implements Representation {
 
     @Override
-    public void representFirstString() {
-        System.out.print("._.");
+    public String representFirstString() {
+       return "._.";
     }
 
     @Override
-    public void representSecondString() {
-        System.out.print("|.|");
+    public String representSecondString() {
+        return "|.|";
     }
-
     @Override
-    public void representThirdString() {
-        System.out.print("|_|");
+    public String representThirdString() {
+        return "|_|";
     }
 }

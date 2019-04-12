@@ -4,17 +4,17 @@ import com.company.yatsenko.LCD.second.variant.factory.Representation;
 
 public class One implements Representation {
     @Override
-    public void representFirstString() {
-        System.out.print("...");
+    public String representFirstString() {
+        return "...";
     }
 
     @Override
-    public void representSecondString() {
-        System.out.print("..|");
+    public String representSecondString() {
+        return "..|";
     }
 
     @Override
-    public void representThirdString() {
-        System.out.print("..|");
+    public String representThirdString() {
+        return "..|";
     }
 }

@@ -6,17 +6,17 @@ public class Four implements Representation {
 
 
     @Override
-    public void representFirstString() {
-        System.out.print("...");
+    public String representFirstString() {
+        return "...";
     }
 
     @Override
-    public void representSecondString() {
-        System.out.print("|_|");
+    public String representSecondString() {
+        return "|_|";
     }
 
     @Override
-    public void representThirdString() {
-        System.out.print("..|");
+    public String representThirdString() {
+        return "..|";
     }
 }
